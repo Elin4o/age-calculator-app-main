@@ -33,6 +33,8 @@ Users should be able to:
 
 ### Screenshot
 
+![Screen Shot 2023-10-31 at 14 35 22](https://github.com/Elin4o/age-calculator-app-main/assets/61417642/28a7bf57-d78b-4d56-ad83-c49665e463e9)
+![Screen Shot 2023-10-31 at 14 35 30](https://github.com/Elin4o/age-calculator-app-main/assets/61417642/90462eaf-6b82-4fcd-aa6c-dd547df20929)
 
 ### Links
 
