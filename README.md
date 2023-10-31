@@ -36,7 +36,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [(https://elin4o.github.io/age-calculator-app-main/)]((https://elin4o.github.io/age-calculator-app-main/))
+- Live Site URL: [https://elin4o.github.io/age-calculator-app-main/](https://elin4o.github.io/age-calculator-app-main/)
 
 ## My process
 
