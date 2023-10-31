@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Age calculator app</title>
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Poppins:ital,wght@0,700;1,400;1,800&family=Roboto:ital,wght@0,400;0,700;1,400&family=Sometype+Mono&display=swap" rel="stylesheet"> 
+
+  <script src="ageCalculator.js" defer></script>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+<body>
+  <main>
+    <div class="container">
+      <div class="inputs">
+        <div class="input-container">
+          <label for="days" class="label-day">DAY</label>
+          <input type="number" name="days" id="days" placeholder="DD">
+          <div class="message day"></div>
+        </div>
+        <div class="input-container">          
+          <label for="months" class="label-month">MONTH</label>
+          <input type="number" name="months" id="months" placeholder="MM">
+          <div class="message month"></div>
+        </div>
+        <div class="input-container">
+          <label for="years"  class="label-year">YEAR</label>
+          <input type="number" name="years" id="years" placeholder="YYYY">
+          <div class="message year"></div>
+        </div>
+      </div>
+      <div class="submit">
+        <hr>
+        <button type="submit" class="submit">
+          <img src="./assets/images/icon-arrow.svg" alt="button icon">
+          <div class="message"></div>
+        </button>
+        <hr class="mobile-visible">
+      </div>
+      <div class="calculated-age">
+        <div class="age">
+          <p><span class="numbers animate" id="calculated-years">--</span>years</p>
+        </div>
+        <div class="age">
+          <p><span class="numbers animate" id="calculated-month">--</span>months</p>
+        </div>
+        <div class="age">
+          <p><span class="numbers animate" id="calculated-days">--</span>days</p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.frontendmentor.io/profile/Elin4o">Elin</a>.
+    </div>
+  </footer>
+</body>
+</html>
